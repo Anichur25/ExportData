@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Pojects java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/apache-csv.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/utf8&apos;&apos;courserajava.jar"/>
+	<classpathentry kind="output" path="Pojects java"/>
+</classpath>
