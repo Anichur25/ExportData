@@ -24,17 +24,17 @@ public class ProcessExportFile {
 	}
 
 
-	/*public void listExportersTwoProducts(CSVParser parser,String exportItem1,String exportItem2)
+	public void listExportersTwoProducts(CSVParser parser,String exportItem1,String exportItem2)
 	{
 
 		for(CSVRecord rec : parser)
 		{
-			if(rec.get(1).contains(exportItem1) && rec.get(1).contains(exportItem2))
+			if(rec.get("Exports").contains(exportItem1) && rec.get("Exports").contains(exportItem2))
 			{
-				System.out.println(rec.get(0));
+				System.out.println(rec.get("Country"));
 			}
 		}
-	}*/
+	}
 
 
 	public void tester()
@@ -43,7 +43,7 @@ public class ProcessExportFile {
 		CSVParser parser = fr.getCSVParser();
 
 		String sp = countryInfo(parser,"Malaysia");
-		//listExportersTwoProducts(parser,"gold","diamonds");
+		listExportersTwoProducts(parser,"gold","diamonds");
 
 		System.out.println(sp);
 	}
