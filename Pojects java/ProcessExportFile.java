@@ -4,7 +4,7 @@ import edu.duke.*;
 public class ProcessExportFile {
 
 
-	/*public String countryInfo(CSVParser parser,String country)
+	public String countryInfo(CSVParser parser,String country)
 	{
 		String result = "NOT FOUND";
 
@@ -21,7 +21,7 @@ public class ProcessExportFile {
 
 
 		return result;
-	}*/
+	}
 
 
 	/*public void listExportersTwoProducts(CSVParser parser,String exportItem1,String exportItem2)
@@ -42,18 +42,18 @@ public class ProcessExportFile {
 		FileResource fr = new FileResource();
 		CSVParser parser = fr.getCSVParser();
 
-		//String sp = countryInfo(parser,"Malaysia");
+		String sp = countryInfo(parser,"Malaysia");
 		//listExportersTwoProducts(parser,"gold","diamonds");
 
-		//System.out.println(sp);
+		System.out.println(sp);
 	}
 
-	/*public static void main(String[] args) {
+	public static void main(String[] args) {
 
 		ProcessExportFile test = new ProcessExportFile();
 
 		test.tester();
 
-	}*/
+	}
 
 }
